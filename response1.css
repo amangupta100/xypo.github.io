@@ -234,9 +234,13 @@ width: 50%;gap: 11px;}
     width: 80px;
     height: 80px;
     margin-right: 40px;
+    margin-top: 0px;
   }
   .img_cont{
     display: none;
+  }
+  .menu_cont{
+    right: 10%;
   }
   .square{
     width: 30px;
@@ -294,8 +298,10 @@ width: 200%;gap: 30px;
   }
   .ht-featur h2{
     font-size: 41px;
+    font-weight: 550;
   }
   .ht-featur p{
+    font-weight: 300;
     font-size: 30px;margin-top: 16px;
   }
   .ht-featur img{
@@ -396,6 +402,7 @@ left: 30%;
     gap: 170px;
   }
   .links{
+    margin-top: 60px;
     display: grid;
     grid-template-rows: auto auto;
     grid-template-columns: auto auto;
@@ -415,7 +422,7 @@ left: 30%;
   height: 125px;
   }
   .company a{
-    width: 190px;
+    width: 150px;
     padding: 30px 50px;
   }
 }
