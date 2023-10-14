@@ -50,6 +50,7 @@ body{
   color: rgb(63, 59, 59);
   text-transform: uppercase;
   letter-spacing: 1px;
+ outline: none;
 }
 .cont {
   display: flex;

@@ -240,7 +240,7 @@ width: 50%;gap: 11px;}
     display: none;
   }
   .menu_cont{
-    right: 10%;
+    right: 10.5%;
   }
   .square{
     width: 30px;
@@ -369,6 +369,7 @@ width: 160%;margin-left: 290px;height: 650px;
   .input_btn{
     gap: 22px;
   }
+
   .inp_field{
     height: 80px;
     font-size: 28px;
@@ -397,7 +398,7 @@ left: 30%;
     margin-left: 90%;
   }
   .footer{
-    margin-top: 189%;
+    margin-top: 168%;
     flex-direction: column;
     gap: 170px;
   }

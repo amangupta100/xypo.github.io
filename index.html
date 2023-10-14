@@ -16,16 +16,16 @@
   </div>
   
   <div class="menu_cont show_cont">
-   <a href="#">Home</a>
-   <a href="#">About us</a>
-   <a href="#">Features</a>
-   <a href="#">Courses</a>
-   <a href="#">Offer</a>
-   <a href="#">Contact</a>
+   <a href="#home">Home</a>
+   <a href="#about">About us</a>
+   <a href="#features">Features</a>
+   <a href="#course_sec">Courses</a>
+   <a href="#offer">Offer</a>
+   <a href="#comm">Contact</a>
 
   </div>
 
-  <div class="cont">
+  <div class="cont" id="home">
     <div class="txt">
       <h1 class="pr">The purpose is to teach, bring learning to people</h1>
       <div class="square"><label for="" class="none">cd</label></div>
@@ -36,10 +36,10 @@
        <a href="" class="rd_more">Read More</a>
        <div class="square"><label for="" class="none">cd</label></div>
       <div class="media-cont">
-        <img src="./assets/facebook.png" alt="" srcset="" class="media">
-        <img src="./assets/instagram.png" alt="" srcset="" class="media">
-        <img src="./assets/twitter.png" alt="" srcset="" class="media">
-        <img src="./assets/linkedin.png" alt="" srcset="" class="media">
+       <img src="./assets/linkedin.png" alt="" srcset="" class="media" onclick="LWindow()">
+        <img src="./assets/instagram.png" alt="" srcset="" class="media" onclick="iWindow()">
+        <img src="./assets/twitter.png" alt="" srcset="" class="media" onclick="tWindow()">
+        <img src="./assets/facebook.png" alt="" srcset="" class="media" onclick="fWindow()">
       </div>
     </div>
     <div class="img">
@@ -47,7 +47,7 @@
     </div>
   </div>
 
-  <div class="about_us">
+  <div class="about_us" id="about">
     <div class="img_about">
       <img src="./assets/about.png" alt="" srcset="" class="about">
     </div>
@@ -65,7 +65,7 @@
     </div>
   </div>
 
-  <div class="featur">
+  <div class="featur" id="features">
     <div class="ht-featur">
       <div id="learn" class="featur_cont">
         <img src="./assets/pic-1.png" alt="" srcset="" class="featur_img">
@@ -88,7 +88,7 @@
     <a href="#" class="trail">Start Free Trail</a>
   </div>
 
-  <div class="courses">
+  <div class="courses" id="course_sec">
     <div class="txt_cours">
       <h1 class="browse">Browse our top
         courses</h1>
@@ -103,7 +103,7 @@
     <img src="./assets/course.png" alt="" srcset="" class="img_courses">
   </div>
  
- <div class="learning">
+ <div class="learning" id="offer">
   <img src="./assets/offer.png" alt="" srcset="" class="learn_img">
   <div class="learn_txt">
     <h1 class="browse">Limitless Learning
@@ -116,19 +116,19 @@
   </div>
  </div>
 
-<div class="community">
+<div class="community" id="comm">
   <div class="txt_comm">
     <h1 class="browse">
       Sign Up to join our
 Learning Community
     </h1>
    <div class="input_btn">
-    <input type="text" value="Enter your Name" class="inp_field">
-    <input type="text" value="Enter your Email" class="inp_field">
-    <input type="text" value="Enter your Name" class="inp_field">
+    <input type="text" placeholder="Enter your Name" class="inp_field">
+    <input type="text" placeholder="Enter your Email" class="inp_field">
+    <input type="text" placeholder="Enter your Phone" class="inp_field">
     <div class="btn">
       <a href="#" class="sign_up">Sign Up</a>
-      <a href="#" class="trail">Start Free Trail</a>
+      <a href="#course_sec" class="trail">Start Free Trail</a>
     </div>
    </div>
    <div class="square"><label for="" class="none">cd</label></div>
