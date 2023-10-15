@@ -227,14 +227,15 @@ width: 50%;gap: 11px;}
 } */
 @media screen and (max-width:426px){
   .nav{
-    padding: 40px 110px;height: 190px;
+    padding: 40px 110px;height: 240px;
    ;width: 200%;
   }
   .menu_icon{
     width: 80px;
     height: 80px;
     margin-right: 40px;
-    margin-top: -20px;
+   position: absolute;
+ 
   }
   .img_cont{
     display: none;
@@ -398,7 +399,7 @@ left: 30%;
     margin-left: 90%;
   }
   .footer{
-    margin-top: 168%;
+    margin-top: 120%;
     flex-direction: column;
     gap: 170px;
   }
@@ -424,6 +425,6 @@ left: 30%;
   }
   .company a{
     width: 150px;
-    padding: 30px 50px;
+    padding: 30px 30px;
   }
 }
